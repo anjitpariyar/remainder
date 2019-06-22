@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>project</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+	<header>
+	  <div class="d-sm-flex justify-content-between">
+		<!-- <div class=""> -->
+	       <a href="#body" onclick="ready()"> <div class=" remainder " >Your Remainder</div></a>
+	    <!-- </div>     -->
+	   <div class=" search ">
+	         <form class="d-inline form-group row">
+	         	<div class="input-group">
+	         	
+	   	          <input type="text" name="" class="form-control no-boder" placeholder="Search">
+	   	          <div class="input-group-append">
+	   	          	<a class="btn btn-dark searchbox"  type="submit"> 
+	   	       	      <i class="fas fa-search search-icon "></i>
+	   	       	    </a>  
+	   	          </div>
+	   	     </div>  
+	         </form>
+	    </div>     
+
+
+	   </div>
+	 </header>
+<section id="section">
+
+	<div class="card">
+		<div class="card-header">
+            <a class="card-link " data-toggle="collapse" href="#collapseExample"  aria-expanded="false" aria-controls="collapseExample" id="numb1">
+             Templete
+            </a>
+            <a class="" href="#deletremainder" data-toggle="modal">
+            <i class="fas fa-trash trash"></i>
+        </a>
+        </div>    
+        <div class="collapse" id="collapseExample">
+                 <div class="card card-body">
+                   Hello , I am anjit pariyar. please dont refresh the page. otherwise all your data will be lost. Arigatou gozaimus
+                 </div>
+         </div>
+
+
+
+    </div>
+   
+</section>
+    <footer>
+    	<a href="#addremainder" data-toggle="modal"><div class="add "><i class="fas fa-plus-circle"></i></div></a>
+    </footer>
+    <div class="modal fade" id="addremainder" role="modal">
+    	<div class="modal-dialog" role="documment">
+    		<div class="modal-content">
+    			<form class="form-group noteform">
+    				<label for="title">Title</label>
+    				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    				<input type="text" class="form-control" id="title" required="">
+    				<label for="note">Note</label>
+    				<br>
+    				<textarea cols="50" rows="5" class="form-control" id="note" required=""></textarea>
+    				<br>
+    				<input class="btn btn-lg btn-success" type="submit" id="save" value="save" />
+    				<button class="btn btn-lg btn-warning ml-3 " data-dismiss="modal" >cancel</button>
+    			</form>
+    			
+    		</div>
+    		
+    	</div>
+    </div>
+
+    <!-- for delete -->
+    <!--<div class="modal fade" id="deletremainder" role="modal">
+    	<div class="modal-dialog modal-dialog-centered" role="documment">
+    		<div class="modal-content">
+    			<form class="form-group" >
+    				<p>Are you sure, you want to delete</p>
+    				<button  class="btn  btn-lg btn-success" id="yes" data-dismiss="modal">Yes</button>
+    				<button class="btn btn-lg btn-warning ml-3" data-dismiss="modal" >No</button>
+    			</form>
+    			
+    		</div>
+    		
+    	</div>
+    </div>-->
+
+<script type="text/javascript" src="project1.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

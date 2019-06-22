@@ -1,0 +1,107 @@
+
+:root{
+
+--text-color:#20b2aa;
+--icon-hover:#fa3c4c;
+}
+/*add the shedule*/
+
+body{
+	max-width: 90%;
+	margin: auto;
+
+}
+
+header{
+	height: 150px;
+	padding: 35px 0;
+	
+}
+.remainder{
+	color:var(--text-color);
+	font-size: 30px;
+	text-decoration: none;
+}
+.add{
+	font-size: 40px;
+	position: fixed;
+	top: 90%;
+	right:3px;
+	color: #292b2c;
+
+}
+
+/*card*/
+
+
+/*delet trash*/
+.trash{
+ margin-left: 100%;
+ color: #fff;
+}
+/*search form*/
+.search{
+	margin-left: 0%;
+	max-width: 500px;
+	margin-top: -20px;
+	border-color: var(--text-color);
+	color: var(--text-color);
+
+}
+.search-icon:hover, .trash:hover, .add:hover{
+	color: var(--icon-hover);
+}
+.search-icon{
+	color: var(--text-color);
+	transition: all 0.2s ease;
+
+}
+.card-header{
+	background-color: var(--text-color);
+	color: #99aab5;
+
+}
+.card-link{
+	color: #fff;
+	font-size: 1.2rem;
+	padding: px 0;
+	transition: all .2s ease;
+}
+.card-link:focus{
+	color:#99aab5;
+}
+.card-link:hover{
+	color:#99aab5;
+}
+.card-body{
+	color: var(--text-color);
+}
+/*are you sure you want to delete*/
+.modal-content{
+	padding: 25px 30px;
+	background-color:#4fd2c8;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 1.2rem;
+}
+.form-control:focus , .form-control:active{
+ outline:0;
+ color: var(--text-color);
+ 
+
+}
+.no-boder:focus{
+	outline: 0;
+
+}
+
+.hide{
+	display: none;
+}
+.found{
+	display:block;
+}
+a:hover{
+	text-decoration: none;
+	
+}
