@@ -105,3 +105,10 @@ a:hover{
 	text-decoration: none;
 	
 }
+function ready(){
+	
+	console.log("cool");
+	for(j=0;j<=100;j++){
+	document.getElementById('card'+j).classList.remove('hide');
+	document.getElementById('card'+j).classList.remove('found');}
+};
