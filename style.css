@@ -67,9 +67,9 @@ header{
 	padding: px 0;
 	transition: all .2s ease;
 }
-.card-link:focus{
-	color:var(--icon-hover);
-}
+//.card-link:focus{
+//	color:var(--icon-hover);
+//}
 .card-link:hover{
 	color:var(--icon-hover);
 }
